@@ -7,3 +7,10 @@ CREATE TABLE IF NOT EXISTS test.estudiantes (
 	fechaNacimiento DATE NOT NULL,
 	CONSTRAINT estudiantes_PK PRIMARY KEY (id)
 );
+
+INSERT INTO test.estudiantes (nombre, comidaPreferida, fechaNacimiento)
+VALUES 
+  ('Demian Dark', 'Suffle', '1920-10-30'),
+  ('Vandal Savage', 'Baba ganush', '1970-08-30'),
+  ('Eobard Thawne', 'Hamburguesas de BigBellyBurger', '1950-02-12'),
+  ('Slade Wilson', 'Conejo asado', '1931-05-01');
